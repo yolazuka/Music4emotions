@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/background"
+    tools:context="com.example.usuario.music4emotions.MainActivity">
+
+    <TextView
+        android:id="@+id/header"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/Header"
+        android:text="@string/Header" />
+
+    <!-- MAIN GALLERY OF LIBRARIES -->
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+    <ImageView
+        style="@style/Image_icon"
+        android:id="@+id/happy"
+        android:src="@drawable/happy" />
+
+     <ImageView
+         style="@style/Image_icon"
+         android:id="@+id/hungover"
+         android:src="@drawable/hungover" />
+
+     <ImageView
+         style="@style/Image_icon"
+         android:id="@+id/relaxed"
+         android:src="@drawable/relaxed" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            style="@style/Image_icon"
+            android:id="@+id/energetic"
+            android:src="@drawable/energetic" />
+
+        <ImageView
+            style="@style/Image_icon"
+            android:id="@+id/sad"
+            android:src="@drawable/sad" />
+
+        <ImageView
+            style="@style/Image_icon"
+            android:id="@+id/concentrate"
+            android:src="@drawable/concentrate" />
+
+    </LinearLayout>
+
+    <TextView
+        style="@style/explanations"
+        android:id="@+id/explanation_main_screen"
+        android:text="@string/main_screen_explanation"
+        android:layout_marginBottom="30dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <!-- BOTTOM MENU -->
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@android:color/darker_gray"/>
+
+    <LinearLayout
+        android:id="@+id/menu_bar"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:background="@color/dark_transparent">
+
+        <TextView
+            android:id="@+id/music_store"
+            style="@style/menu"
+            android:textSize="17sp"
+            android:layout_width="0dp"
+            android:layout_height="30dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="@string/music_store" />
+
+        <TextView
+            android:id="@+id/search"
+            style="@style/menu"
+            android:layout_width="0dp"
+            android:layout_height="30dp"
+            android:textSize="17sp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="@string/search"
+            android:onClick="GoToSearch"/>
+
+    </LinearLayout>
+
+</LinearLayout>
+

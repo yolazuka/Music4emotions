@@ -1,0 +1,122 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">#212121</item>
+        <item name="colorPrimaryDark">#000000</item>
+        <item name="colorAccent">#00BFA5</item>
+    </style>
+
+    <style name="Header" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:layout_marginBottom">25dp</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:layout_marginTop">18dp</item>
+
+    </style>
+
+    <style name="Image_icon" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="android:layout_marginTop">20dp</item>
+        <item name="android:layout_marginLeft">8dp</item>
+        <item name="android:background">@drawable/frame</item>
+        <item name="android:layout_width">110dp</item>
+        <item name="android:layout_height">110dp</item>
+
+    </style>
+
+
+    <style name="explanations" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="android:layout_marginTop">25dp</item>
+        <item name="android:layout_marginLeft">8dp</item>
+        <item name="android:layout_marginRight">8dp</item>
+        <item name="android:paddingLeft">5dp</item>
+        <item name="android:paddingRight">5dp</item>
+        <item name="android:paddingTop">5dp</item>
+        <item name="android:paddingBottom">5dp</item>
+        <item name="android:background">#66212121</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">#b3FFFFFF</item>
+
+    </style>
+
+    <style name="artist_profile_info" parent="ThemeOverlay.AppCompat.Dark.ActionBar">
+
+        <item name="android:layout_marginTop">15dp</item>
+        <item name="android:layout_marginLeft">15dp</item>
+        <item name="android:layout_marginRight">15dp</item>
+        <item name="android:layout_marginBottom">25dp</item>
+        <item name="android:textSize">13sp</item>
+        <item name="android:textColor">#b3FFFFFF</item>
+
+
+    </style>
+
+    <style name="list_items" parent="Theme.AppCompat.Light.DarkActionBar">
+
+    <item name="android:paddingLeft">15dp</item>
+    <item name="android:paddingRight">5dp</item>
+    <item name="android:paddingTop">5dp</item>
+    <item name="android:paddingBottom">5dp</item>
+    <item name="android:textSize">12sp</item>
+    <item name="android:textColor">#b3FFFFFF</item>
+
+    </style>
+
+    <style name="list_items_text" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="android:textSize">14sp</item>
+        <item name="android:layout_width">140dp</item>
+        <item name="android:textColor">#b3FFFFFF</item>
+        <item name="android:paddingLeft">15dp</item>
+        <item name="android:paddingTop">15dp</item>
+
+    </style>
+
+    <style name="heart" parent="Theme.AppCompat.Light.DarkActionBar">
+
+        <item name="android:layout_marginLeft">18dp</item>
+        <item name="android:layout_marginTop">18dp</item>
+        <item name="android:layout_width">35dp</item>
+        <item name="android:layout_height">35dp</item>
+
+    </style>
+
+    <style name="plus" parent="Theme.AppCompat.Light.DarkActionBar">
+
+        <item name="android:layout_marginLeft">15dp</item>
+        <item name="android:layout_marginTop">18dp</item>
+        <item name="android:layout_width">35dp</item>
+        <item name="android:layout_height">35dp</item>
+
+    </style>
+
+    <style name="menu" parent="Theme.AppCompat.Light.DarkActionBar">
+
+        <item name="android:layout_marginTop">10dp</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:paddingBottom">10dp</item>
+
+    </style>
+
+    <style name="explanations_playingnow" parent="Theme.AppCompat.Light.DarkActionBar">
+
+        <item name="android:layout_marginTop">225dp</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:layout_alignParentRight">true</item>
+        <item name="android:gravity">center</item>
+        <item name="android:text">@string/playing_now_screen_explanation</item>
+        <item name="android:width">160dp</item>
+
+
+
+    </style>
+
+
+
+
+</resources>

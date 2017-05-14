@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/background"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.usuario.music4emotions.Happy">
+
+    <TextView
+        style="@style/explanations"
+        android:id="@+id/explanation_main_screen"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="15dp"
+        android:text="@string/playlist_screen_explanation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <!-- First item focusedplaylist -->
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@android:color/darker_gray"/>
+
+    <LinearLayout
+        android:id="@+id/focused_item_one"
+        style="@style/list_items"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/focused_image_one"
+            android:src="@drawable/david_bowie"
+            android:layout_width="80dp"
+            android:layout_height="80dp" />
+
+        <TextView
+            android:id="@+id/focused_one_text"
+            android:text="@string/focused_item_one"
+            style="@style/list_items_text"
+            android:layout_height="wrap_content" />
+
+        <ImageView
+            android:id="@+id/focused_heart_one"
+            style="@style/heart"
+            android:src="@drawable/heart" />
+
+        <ImageView
+            android:id="@+id/focused_plus_one"
+            style="@style/plus"
+            android:src="@drawable/plus" />
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@android:color/darker_gray"/>
+
+    <!-- Second item focusedplaylist -->
+
+    <LinearLayout
+        android:id="@+id/focused_item_two"
+        style="@style/list_items"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+
+            android:id="@+id/focused_image_two"
+            android:src="@drawable/eagles"
+            android:layout_width="80dp"
+            android:layout_height="80dp" />
+
+        <TextView
+            android:id="@+id/focused_two_text"
+            android:text="@string/focused_item_two"
+            style="@style/list_items_text"
+            android:layout_height="wrap_content" />
+
+        <ImageView
+            android:id="@+id/focused_heart_two"
+            style="@style/heart"
+            android:src="@drawable/heart" />
+
+        <ImageView
+            android:id="@+id/focused_plus_two"
+            style="@style/plus"
+            android:src="@drawable/plus" />
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@android:color/darker_gray"/>
+
+    <!-- Third item focusedplaylist -->
+
+    <LinearLayout
+        android:id="@+id/focused_item_three"
+        style="@style/list_items"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/focused_image_three"
+            android:src="@drawable/supertramp"
+            android:layout_width="80dp"
+            android:layout_height="80dp" />
+
+        <TextView
+            android:id="@+id/fcoused_three_text"
+            android:text="@string/focused_item_three"
+            style="@style/list_items_text"
+            android:layout_height="wrap_content" />
+
+        <ImageView
+            android:id="@+id/focused_heart_three"
+            style="@style/heart"
+            android:src="@drawable/heart" />
+
+        <ImageView
+            android:id="@+id/focused_plus_three"
+            style="@style/plus"
+            android:src="@drawable/plus" />
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@android:color/darker_gray"/>
+
+    <!-- Fourth item focusedplaylist -->
+
+    <LinearLayout
+        android:id="@+id/focused_item_four"
+        style="@style/list_items"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/focused_image_four"
+            android:src="@drawable/the_beatles"
+            android:layout_width="80dp"
+            android:layout_height="80dp" />
+
+        <TextView
+            android:id="@+id/focused_four_text"
+            android:text="@string/focused_item_four"
+            style="@style/list_items_text"
+            android:layout_height="wrap_content" />
+
+        <ImageView
+            android:id="@+id/focused_heart_four"
+            style="@style/heart"
+            android:src="@drawable/heart" />
+
+        <ImageView
+            android:id="@+id/fcoused_plus_four"
+            style="@style/plus"
+            android:src="@drawable/plus" />
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@android:color/darker_gray"/>
+
+</LinearLayout>

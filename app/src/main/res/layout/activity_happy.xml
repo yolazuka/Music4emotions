@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/background"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.usuario.music4emotions.Happy">
+
+    <!-- MENU -->
+
+    <LinearLayout
+        android:id="@+id/menu_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@color/dark_transparent">
+
+        <TextView
+            android:id="@+id/menu_main_happy_screen"
+            style="@style/menu"
+            android:layout_width="0dp"
+            android:layout_height="30dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="@string/main" />
+
+        <TextView
+            android:id="@+id/music_store"
+            style="@style/menu"
+            android:layout_width="0dp"
+            android:layout_height="30dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="@string/music_store" />
+
+        <TextView
+            android:id="@+id/search"
+            style="@style/menu"
+            android:layout_width="0dp"
+            android:layout_height="30dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="@string/search"
+            android:onClick="GoToSearch"/>
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@android:color/darker_gray"/>
+
+    <TextView
+
+        style="@style/explanations"
+        android:id="@+id/explanation_main_screen"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        android:text="@string/playlist_screen_explanation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <!-- First item happyplaylist -->
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@android:color/darker_gray"/>
+
+    <LinearLayout
+
+        android:id="@+id/happy_item_one"
+        style="@style/list_items"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+
+            android:id="@+id/thb_h_one"
+            android:src="@drawable/chuck_berry"
+            android:layout_width="80dp"
+            android:layout_height="80dp" />
+
+        <TextView
+
+            android:id="@+id/h_one_text"
+            android:text="@string/happy_item_one"
+            style="@style/list_items_text"
+            android:layout_height="wrap_content" />
+
+        <ImageView
+            android:id="@+id/h_heart_one"
+            style="@style/heart"
+            android:src="@drawable/heart"
+            android:onClick="like1"/>
+
+        <ImageView
+            android:id="@+id/h_plus_one"
+            style="@style/plus"
+            android:src="@drawable/plus"
+            android:onClick="go_to_artist_one"/>
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@android:color/darker_gray"/>
+
+    <!-- Second item happyplaylist -->
+
+    <LinearLayout
+
+        android:id="@+id/happy_item_two"
+        style="@style/list_items"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+
+            android:id="@+id/thb_h_two_"
+            android:src="@drawable/cream"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:onClick="playingnow_cream"/>
+
+        <TextView
+
+            android:id="@+id/h_two_text_"
+            android:text="@string/happy_item_two"
+            style="@style/list_items_text"
+            android:layout_height="wrap_content" />
+
+        <ImageView
+            android:id="@+id/h_heart_two"
+            style="@style/heart"
+            android:src="@drawable/heart"
+            android:onClick="like2"/>
+
+        <ImageView
+            android:id="@+id/h_plus_two"
+            style="@style/plus"
+            android:src="@drawable/plus" />
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@android:color/darker_gray"/>
+
+    <!-- Third item happyplaylist -->
+
+    <LinearLayout
+
+        android:id="@+id/happy_item_three"
+        style="@style/list_items"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+
+            android:id="@+id/thb_h_two"
+            android:src="@drawable/elton_john"
+            android:layout_width="80dp"
+            android:layout_height="80dp" />
+
+        <TextView
+
+            android:id="@+id/h_two_text"
+            android:text="@string/happy_item_three"
+            style="@style/list_items_text"
+            android:layout_height="wrap_content" />
+
+        <ImageView
+            android:id="@+id/h_heart_three"
+            style="@style/heart"
+            android:src="@drawable/heart"
+            android:onClick="like3"/>
+
+        <ImageView
+            android:id="@+id/h_plus_three"
+            style="@style/plus"
+            android:src="@drawable/plus" />
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@android:color/darker_gray"/>
+
+    <!-- Fourth item happyplaylist -->
+
+    <LinearLayout
+
+        android:id="@+id/happy_item_four"
+        style="@style/list_items"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+
+            android:id="@+id/thb_h_four"
+            android:src="@drawable/rolling_stones"
+            android:layout_width="80dp"
+            android:layout_height="80dp" />
+
+        <TextView
+
+            android:id="@+id/h_four_text"
+            android:text="@string/happy_item_four"
+            style="@style/list_items_text"
+            android:layout_height="wrap_content" />
+
+        <ImageView
+            android:id="@+id/h_heart_four"
+            style="@style/heart"
+            android:src="@drawable/heart"
+            android:onClick="like4"/>
+
+        <ImageView
+            android:id="@+id/h_plus_four"
+            style="@style/plus"
+            android:src="@drawable/plus" />
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@android:color/darker_gray"/>
+
+</LinearLayout>

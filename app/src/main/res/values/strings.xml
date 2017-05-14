@@ -1,0 +1,119 @@
+<resources>
+    <!-- Title for the application. [CHAR LIMIT=12] -->
+    <string name="app_name">Music4emotions</string>
+
+    <string name="happy_playlist">happy playlist</string>
+
+    <string name="sad_playlist">sad playlist</string>
+
+    <string name="concentrate_playlist">focused playlist</string>
+
+    <string name="hungover_playlist">hungover playlist</string>
+
+    <string name="energetic_playlist">energetic playlist</string>
+
+    <string name="relaxed_playlist">relaxed playlist</string>
+
+    <string name="Header">How do you feel today?...</string>
+
+    <string name="main_screen_explanation">This is the main screen, with 6 different options to choose. They are random playlists, according to your mood. The source could be any kind of platform as Spotify, lastfm, or many others.\nSo each category is linked to a new activity that will gather a random playlist related to your mood.</string>
+
+    <string name="playlist_screen_explanation">This is the playlist screen, with a list of random artists and songs that will be played automatically by the order of the list. The user can click on the plus sign, and the app will go to the artist profile. If the user clicks on the album cover, or the phone gets locked, the playingnow screen will show up. The heart is to mark it as favourite song.  </string>
+
+    <string name="playing_now_screen_explanation">This screen shows a big picture of the artist, and details of the song, including menus to navigate to the rest of the screens.  </string>
+
+    <string name="artist_screen_explanation">This is the Artist profile screen, with all the artist information. </string>
+
+    <string name="store_screen_explanation">This is the Music Store Screen, where you can buy songs. You can search for the artist, or choosing one from the playlists.Click on the artist from the list, and the layout for the payment appears on the botton. There is also a menu to navigate to the rest of the screens. </string>
+
+    <string name="happy_item_one_more">Want to know more about this artist? (+) </string>
+
+    <string name="playing_now">Playing now </string>
+
+    <!-- Strings for the happyplaylist items -Songs info - -->
+
+    <string name="happy_item_one"><b>Chuck Berry</b>\nOne dozen Berrys\nMy Sweet Berry</string>
+
+    <string name="happy_item_two"><b>Cream</b>\nDisraeli Gears\nShake it </string>
+
+    <string name="happy_item_two_playingnow"><b>Cream</b>\nDisraeli Gears >> Shake it</string>
+
+    <string name="happy_item_three"><b>Elton John</b>\nElton John\nJust for you</string>
+
+    <string name="happy_item_four"><b>Rolling Stones</b>\nSome Girls\nTonight</string>
+
+    <!-- Strings for the hungoverplaylist items -Songs info - -->
+
+    <string name="hungover_item_one"><b>Kings of Lion</b>\nWalls\nThe shallow grave</string>
+
+    <string name="hungover_item_two"><b>No Doubt</b>\nTragic Kingdom\nI was the girl</string>
+
+    <string name="hungover_item_three"><b>Peter Gabriel</b>\nPeter Gabriel\nDigging in the dirt</string>
+
+    <string name="hungover_item_four"><b>Rufus Wainwright</b>\nWant\nNever again</string>
+
+    <!-- Strings for the relaxedplaylist items -Songs info - -->
+
+    <string name="relaxed_item_one"><b>Childish Gambino</b>\nDeep\nEthnic vibe</string>
+
+    <string name="relaxed_item_two"><b>Elliphant</b>\nLiving Life Golden\nAir</string>
+
+    <string name="relaxed_item_three"><b>Enya</b>\nThe very best of Enya\nChords</string>
+
+    <string name="relaxed_item_four"><b>FleetWood Mac</b>\nRumours\nTell me lies</string>
+
+    <!-- Strings for the energeticplaylist items -Songs info - -->
+
+    <string name="energetic_item_one"><b>Blondie</b>\nParallel Lines\nSurviving</string>
+
+    <string name="energetic_item_two"><b>Deftones</b>\nGore\nThe earth</string>
+
+    <string name="energetic_item_three"><b>Elvis Presley</b>\nElvis\nHeartbreak hotel</string>
+
+    <string name="energetic_item_four"><b>Madness</b>\nOne Step Beyond\nIn the house</string>
+
+    <!-- Strings for the sadplaylist items -Songs info - -->
+
+    <string name="sad_item_one"><b>Jeff Buckley</b>\nGrace\nGrace</string>
+
+    <string name="sad_item_two"><b>John Frusciante</b>\nTo Clara\nGoing Inside</string>
+
+    <string name="sad_item_three"><b>Joy Division</b>\nJoy\nLove will tear us apart</string>
+
+    <string name="sad_item_four"><b>Radiohead</b>\nPablo Honey\nCreep</string>
+
+    <!-- Strings for the focusedplaylist items -Songs info - -->
+
+    <string name="focused_item_one"><b>David Bowie</b>\nAladdin Sane\nSnake</string>
+
+    <string name="focused_item_two"><b>Eagles</b>\nHotel California\nHotel California</string>
+
+    <string name="focused_item_three"><b>Supertramp</b>\nBreakfast in America\nNo mistic</string>
+
+    <string name="focused_item_four"><b>The Beatles</b>\nAbbey Road\nAbbey Road</string>
+
+    <!-- Other strings - -->
+
+    <string name="artist_info">orem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse condimentum nibh nec rutrum aliquam. Pellentesque ornare sollicitudin magna at finibus. Integer placerat varius dolor, at eleifend eros condimentum efficitur. Etiam leo risus, mattis in diam tincidunt, venenatis egestas risus. Ut vulputate velit sit amet nunc vulputate ultricies. Donec blandit tellus ut erat finibus, vitae fermentum velit feugiat. Donec tortor mauris, molestie a euismod quis, finibus sed enim. Suspendisse ullamcorper urna bibendum libero feugiat, quis aliquam justo ultrices. Pellentesque porta vitae elit vitae iaculis. Mauris laoreet mollis vehicula. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. orem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse condimentum nibh nec rutrum aliquam. Pellentesque ornare sollicitudin magna at finibus. Integer placerat varius dolor, at eleifend eros condimentum efficitur. Etiam leo risus, mattis in diam tincidunt, venenatis egestas risus. Ut vulputate velit sit amet nunc vulputate ultricies. Donec blandit tellus ut erat finibus, vitae fermentum velit feugiat. Donec tortor mauris, molestie a euismod quis, finibus sed enim. Suspendisse ullamcorper urna bibendum libero feugiat, quis aliquam justo ultrices. Pellentesque porta vitae elit vitae iaculis. Mauris laoreet mollis vehicula. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.</string>
+
+    <string name="Resume_payment"><b>Price:</b>\n0,50 &#8364;\n<b>Total:</b>\n0,50 &#8364;</string>
+
+    <string name="toast_search">This action would open a fragment with a searching field</string>
+
+    <string name="carry_on_buying">Carry on Buying</string>
+
+    <string name="Buy_it_now">Buy it now</string>
+
+    <string name="main">main</string>
+
+    <string name="artist_profile">artist profile</string>
+
+    <string name="playlist">playlist</string>
+
+    <string name="music_store">music store</string>
+
+    <string name="search">search</string>
+
+
+
+</resources>

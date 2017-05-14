@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/background"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.usuario.music4emotions.Happy">
+
+    <ImageView
+        android:id="@+id/searchfield"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/searchfield" />
+
+    <!-- Explanation of the current activity  -->
+
+    <LinearLayout
+        style="@style/list_items"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/store_item_one"
+            android:paddingTop="0dp"
+            android:layout_width="match_parent"
+            android:textSize="11sp"
+            android:text="@string/store_screen_explanation"
+            style="@style/list_items_text"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@android:color/darker_gray"/>
+
+    <!-- Item to buy, two -->
+
+    <LinearLayout
+        style="@style/list_items"
+        android:background="@color/turquoise"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/store_item_two"
+            style="@style/list_items_text"
+            android:paddingTop="0dp"
+            android:textColor="@android:color/white"
+            android:textStyle="bold"
+            android:layout_marginRight="65dp"
+            android:text="@string/happy_item_two"
+            android:layout_height="wrap_content" />
+
+        <ImageView
+            android:id="@+id/basket_two"
+            style="@style/heart"
+            android:layout_marginRight="15dp"
+            android:src="@drawable/basket" />
+
+        <ImageView
+            android:id="@+id/delete_two"
+            style="@style/plus"
+            android:src="@drawable/cross" />
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@android:color/darker_gray"/>
+
+    <!-- item to buy , three -->
+
+    <LinearLayout
+        style="@style/list_items"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/store_item_three"
+            style="@style/list_items_text"
+            android:layout_marginRight="65dp"
+            android:paddingTop="0dp"
+            android:text="@string/happy_item_three"
+            android:layout_height="wrap_content" />
+
+        <ImageView
+            android:id="@+id/basket_three"
+            android:layout_marginRight="15dp"
+            style="@style/heart"
+            android:src="@drawable/basket" />
+
+        <ImageView
+            android:id="@+id/delete_three"
+            style="@style/plus"
+            android:src="@drawable/cross" />
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@android:color/darker_gray"/>
+
+    <!-- item to buy, four -->
+
+    <LinearLayout
+        style="@style/list_items"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/store_item_four"
+            android:layout_marginRight="65dp"
+            android:paddingTop="0dp"
+            android:text="@string/happy_item_four"
+            style="@style/list_items_text"
+            android:layout_height="wrap_content" />
+
+        <ImageView
+            android:id="@+id/h_heart_four"
+            android:layout_marginRight="15dp"
+            style="@style/heart"
+            android:src="@drawable/basket" />
+
+        <ImageView
+            android:id="@+id/h_plus_four"
+            style="@style/plus"
+            android:src="@drawable/cross" />
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@android:color/darker_gray"/>
+
+    <!-- Resume of payment -->
+
+    <TextView
+        android:text="@string/happy_item_two_playingnow"
+        android:textColor="@android:color/white"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="8dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <LinearLayout
+        android:id="@+id/payment_layout"
+        android:layout_marginLeft="30dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:src="@drawable/cream"
+            android:background="@drawable/list_item_frame"
+            android:layout_width="100dp"
+            android:layout_height="100dp" />
+
+        <TextView
+            android:id="@+id/resume_payment"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:text="@string/Resume_payment"
+            android:textColor="@android:color/white"/>
+
+        <TextView
+            android:id="@+id/payment_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="8dp"
+            android:paddingRight="8dp"
+            android:paddingTop="8dp"
+            android:paddingBottom="8dp"
+            android:background="@drawable/frame_payment"
+            android:textSize="18dp"
+            android:layout_marginLeft="55dp"
+            android:layout_marginTop="30dp"
+            android:text="@string/Buy_it_now"
+            android:textColor="@android:color/white"
+            android:onClick="GoToPayment"/>
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@android:color/darker_gray"/>
+
+    <!-- BOTTOM MENU -->
+
+    <LinearLayout
+        android:id="@+id/menu_bar"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:background="#b3212121">
+
+        <TextView
+            android:id="@+id/menu_main"
+            style="@style/menu"
+            android:layout_width="0dp"
+            android:layout_height="30dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="@string/main" />
+
+        <TextView
+            android:id="@+id/menu_artist_profile"
+            style="@style/menu"
+            android:layout_width="0dp"
+            android:layout_height="30dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="@string/artist_profile" />
+
+        <TextView
+            android:id="@+id/menu_playlist"
+            style="@style/menu"
+            android:layout_width="0dp"
+            android:layout_height="30dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="@string/playlist" />
+
+    </LinearLayout>
+
+</LinearLayout>

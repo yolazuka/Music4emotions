@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/background"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.usuario.music4emotions.Happy">
+
+    <TextView
+        style="@style/explanations"
+        android:id="@+id/explanation_main_screen"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="15dp"
+        android:text="@string/playlist_screen_explanation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <!-- First item energeticplaylist -->
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@android:color/darker_gray"/>
+
+    <LinearLayout
+        android:id="@+id/energetic_item_one"
+        style="@style/list_items"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/energetic_image_one"
+            android:src="@drawable/blondie"
+            android:layout_width="80dp"
+            android:layout_height="80dp" />
+
+        <TextView
+            android:id="@+id/energetic_one_text"
+            android:text="@string/energetic_item_one"
+            style="@style/list_items_text"
+            android:layout_height="wrap_content" />
+
+        <ImageView
+            android:id="@+id/energetic_heart_one"
+            style="@style/heart"
+            android:src="@drawable/heart" />
+
+        <ImageView
+            android:id="@+id/energetic_plus_one"
+            style="@style/plus"
+            android:src="@drawable/plus" />
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@android:color/darker_gray"/>
+
+    <!-- Second item energeticplaylist -->
+
+    <LinearLayout
+        android:id="@+id/happy_item_two"
+        style="@style/list_items"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+
+            android:id="@+id/energetic_image_two"
+            android:src="@drawable/defstones"
+            android:layout_width="80dp"
+            android:layout_height="80dp" />
+
+        <TextView
+            android:id="@+id/energetic_two_text"
+            android:text="@string/energetic_item_two"
+            style="@style/list_items_text"
+            android:layout_height="wrap_content" />
+
+        <ImageView
+            android:id="@+id/energetic_heart_two"
+            style="@style/heart"
+            android:src="@drawable/heart" />
+
+        <ImageView
+            android:id="@+id/energetic_plus_two"
+            style="@style/plus"
+            android:src="@drawable/plus" />
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@android:color/darker_gray"/>
+
+    <!-- Third item energeticplaylist -->
+
+    <LinearLayout
+        android:id="@+id/energetic_item_three"
+        style="@style/list_items"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/energetic_image_two"
+            android:src="@drawable/elvis"
+            android:layout_width="80dp"
+            android:layout_height="80dp" />
+
+        <TextView
+            android:id="@+id/energetic_three_text"
+            android:text="@string/energetic_item_three"
+            style="@style/list_items_text"
+            android:layout_height="wrap_content" />
+
+        <ImageView
+            android:id="@+id/energetic_heart_three"
+            style="@style/heart"
+            android:src="@drawable/heart" />
+
+        <ImageView
+            android:id="@+id/energetic_plus_three"
+            style="@style/plus"
+            android:src="@drawable/plus" />
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@android:color/darker_gray"/>
+
+    <!-- Fourth item energeticplaylist -->
+
+    <LinearLayout
+        android:id="@+id/energetic_item_four"
+        style="@style/list_items"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/energetic_image_four"
+            android:src="@drawable/madness"
+            android:layout_width="80dp"
+            android:layout_height="80dp" />
+
+        <TextView
+            android:id="@+id/energetic_four_text"
+            android:text="@string/energetic_item_four"
+            style="@style/list_items_text"
+            android:layout_height="wrap_content" />
+
+        <ImageView
+            android:id="@+id/energetic_heart_four"
+            style="@style/heart"
+            android:src="@drawable/heart" />
+
+        <ImageView
+            android:id="@+id/energetic_plus_four"
+            style="@style/plus"
+            android:src="@drawable/plus" />
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@android:color/darker_gray"/>
+
+</LinearLayout>

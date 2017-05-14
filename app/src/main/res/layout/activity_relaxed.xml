@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/background"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.usuario.music4emotions.Happy">
+
+    <TextView
+        style="@style/explanations"
+        android:id="@+id/explanation_main_screen"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="15dp"
+        android:text="@string/playlist_screen_explanation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <!-- First item relaxedplaylist -->
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@android:color/darker_gray"/>
+
+    <LinearLayout
+        android:id="@+id/relaxed_item_one"
+        style="@style/list_items"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <ImageView
+            android:id="@+id/relaxed_image_one"
+            android:src="@drawable/childish_gambino"
+            android:layout_width="80dp"
+            android:layout_height="80dp" />
+
+
+        <TextView
+            android:id="@+id/relaxed_one_text"
+            android:text="@string/relaxed_item_one"
+            style="@style/list_items_text"
+            android:layout_height="wrap_content" />
+
+        <ImageView
+            android:id="@+id/relaxed_heart_one"
+            style="@style/heart"
+            android:src="@drawable/heart" />
+
+        <ImageView
+            android:id="@+id/relaxed_plus_one"
+            style="@style/plus"
+            android:src="@drawable/plus" />
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@android:color/darker_gray"/>
+
+    <!-- Second item relaxedplaylist -->
+
+    <LinearLayout
+        android:id="@+id/relaxed_item_two"
+        style="@style/list_items"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/relaxed_image_two"
+            android:src="@drawable/elliphant"
+            android:layout_width="80dp"
+            android:layout_height="80dp" />
+
+        <TextView
+            android:id="@+id/relaxed_two_text"
+            android:text="@string/relaxed_item_two"
+            style="@style/list_items_text"
+            android:layout_height="wrap_content" />
+
+        <ImageView
+            android:id="@+id/relaxed_heart_two"
+            style="@style/heart"
+            android:src="@drawable/heart" />
+
+        <ImageView
+            android:id="@+id/relaxed_plus_two"
+            style="@style/plus"
+            android:src="@drawable/plus" />
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@android:color/darker_gray"/>
+
+    <!-- Third item relaxedplaylist -->
+
+    <LinearLayout
+        android:id="@+id/relaxed_item_three"
+        style="@style/list_items"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+
+            android:id="@+id/relaxed_image_three"
+            android:src="@drawable/enya"
+            android:layout_width="80dp"
+            android:layout_height="80dp" />
+
+        <TextView
+            android:id="@+id/relaxed_three_text"
+            android:text="@string/relaxed_item_three"
+            style="@style/list_items_text"
+            android:layout_height="wrap_content" />
+
+        <ImageView
+            android:id="@+id/relaxed_heart_three"
+            style="@style/heart"
+            android:src="@drawable/heart" />
+
+        <ImageView
+            android:id="@+id/relaxed_plus_three"
+            style="@style/plus"
+            android:src="@drawable/plus" />
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@android:color/darker_gray"/>
+
+    <!-- Fourth item relaxedplaylist -->
+
+    <LinearLayout
+        android:id="@+id/relaxed_item_four"
+        style="@style/list_items"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+
+            android:id="@+id/relaxed_image_four"
+            android:src="@drawable/fleetwood_mac"
+            android:layout_width="80dp"
+            android:layout_height="80dp" />
+
+        <TextView
+            android:id="@+id/relaxed_four_text"
+            android:text="@string/relaxed_item_four"
+            style="@style/list_items_text"
+            android:layout_height="wrap_content" />
+
+        <ImageView
+            android:id="@+id/relaxed_heart_four"
+            style="@style/heart"
+            android:src="@drawable/heart" />
+
+        <ImageView
+            android:id="@+id/relaxed_plus_four"
+            style="@style/plus"
+            android:src="@drawable/plus" />
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@android:color/darker_gray"/>
+
+</LinearLayout>

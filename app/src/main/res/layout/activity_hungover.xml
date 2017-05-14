@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/background"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.usuario.music4emotions.Happy">
+
+    <TextView
+        style="@style/explanations"
+        android:id="@+id/explanation_main_screen"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="15dp"
+        android:text="@string/playlist_screen_explanation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <!-- First item hungoverplaylist -->
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@android:color/darker_gray"/>
+
+    <LinearLayout
+        android:id="@+id/hungover_item_one"
+        style="@style/list_items"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/hung_one"
+            android:src="@drawable/kings_of_lions"
+            android:layout_width="80dp"
+            android:layout_height="80dp" />
+
+        <TextView
+            android:id="@+id/hung_one_text"
+            android:text="@string/hungover_item_one"
+            style="@style/list_items_text"
+            android:layout_height="wrap_content" />
+
+        <ImageView
+            android:id="@+id/hung_heart_one"
+            style="@style/heart"
+            android:src="@drawable/heart" />
+
+        <ImageView
+            android:id="@+id/hung_plus_one"
+            style="@style/plus"
+            android:src="@drawable/plus" />
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@android:color/darker_gray"/>
+
+    <!-- Second item hungoverplaylist -->
+
+    <LinearLayout
+        android:id="@+id/hungover_item_two"
+        style="@style/list_items"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/hung_image_two"
+            android:src="@drawable/no_doubt"
+            android:layout_width="80dp"
+            android:layout_height="80dp" />
+
+        <TextView
+            android:id="@+id/hung_two_text"
+            android:text="@string/hungover_item_two"
+            style="@style/list_items_text"
+            android:layout_height="wrap_content" />
+
+        <ImageView
+            android:id="@+id/hung_heart_two"
+            style="@style/heart"
+            android:src="@drawable/heart" />
+
+        <ImageView
+            android:id="@+id/hung_plus_two"
+            style="@style/plus"
+            android:src="@drawable/plus" />
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@android:color/darker_gray"/>
+
+
+    <!-- Third item hungoverplaylist -->
+
+    <LinearLayout
+        android:id="@+id/hungover_item_three"
+        style="@style/list_items"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/hungover_three"
+            android:src="@drawable/peter_gabriel_profile"
+            android:layout_width="80dp"
+            android:layout_height="80dp" />
+
+        <TextView
+            android:id="@+id/hung_three_text"
+            android:text="@string/hungover_item_three"
+            style="@style/list_items_text"
+            android:layout_height="wrap_content" />
+
+        <ImageView
+            android:id="@+id/hung_heart_three"
+            style="@style/heart"
+            android:src="@drawable/heart" />
+
+        <ImageView
+            android:id="@+id/hung_plus_three"
+            style="@style/plus"
+            android:src="@drawable/plus" />
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@android:color/darker_gray"/>
+
+    <!-- Fourth item hungoverplaylist -->
+
+    <LinearLayout
+        android:id="@+id/hungover_item_four"
+        style="@style/list_items"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/hung_four"
+            android:src="@drawable/rufus_wainwright"
+            android:layout_width="80dp"
+            android:layout_height="80dp" />
+
+        <TextView
+            android:id="@+id/hung_four_text"
+            android:text="@string/hungover_item_four"
+            style="@style/list_items_text"
+            android:layout_height="wrap_content" />
+
+        <ImageView
+            android:id="@+id/hung_heart_four"
+            style="@style/heart"
+            android:src="@drawable/heart" />
+
+        <ImageView
+            android:id="@+id/hung_plus_four"
+            style="@style/plus"
+            android:src="@drawable/plus" />
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@android:color/darker_gray"/>
+
+</LinearLayout>

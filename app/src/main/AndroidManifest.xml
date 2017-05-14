@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.usuario.music4emotions">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Happy"
+            android:label="@string/happy_playlist" />
+        <activity
+            android:name=".Sad"
+            android:label="@string/sad_playlist" />
+        <activity
+            android:name=".Hungover"
+            android:label="@string/hungover_playlist" />
+        <activity
+            android:name=".Energetic"
+            android:label="@string/energetic_playlist" />
+        <activity
+            android:name=".Concentrate"
+            android:label="@string/concentrate_playlist" />
+        <activity
+            android:name=".Playingnow"
+            android:label="Playing now" />
+        <activity
+            android:name=".Relaxed"
+            android:label="@string/relaxed_playlist" />
+        <activity
+            android:name=".happy_artist_one"
+            android:label="Chuck Berry Profile" />
+        <activity
+            android:name=".happy_artist_two"
+            android:label="Cream Profile" />
+        <activity
+            android:name=".happy_artist_three"
+            android:label="Eltoh John Profile" />
+        <activity
+            android:name=".happy_artist_four"
+            android:label="Rolling Stones Profile" />
+        <activity android:name=".Store"
+            android:label="Music Store"></activity>
+    </application>
+
+</manifest>
