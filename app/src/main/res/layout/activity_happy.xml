@@ -3,9 +3,9 @@
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:background="@drawable/background"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/background"
     android:orientation="vertical"
     tools:context="com.example.usuario.music4emotions.Happy">
 
@@ -15,8 +15,8 @@
         android:id="@+id/menu_bar"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="horizontal"
-        android:background="@color/dark_transparent">
+        android:background="@color/dark_transparent"
+        android:orientation="horizontal">
 
         <TextView
             android:id="@+id/menu_main_happy_screen"
@@ -43,8 +43,8 @@
             android:layout_height="30dp"
             android:layout_weight="1"
             android:gravity="center"
-            android:text="@string/search"
-            android:onClick="GoToSearch"/>
+            android:onClick="GoToSearch"
+            android:text="@string/search" />
 
     </LinearLayout>
 
@@ -55,13 +55,13 @@
 
     <TextView
 
-        style="@style/explanations"
         android:id="@+id/explanation_main_screen"
-        android:layout_marginTop="8dp"
-        android:layout_marginBottom="8dp"
-        android:text="@string/playlist_screen_explanation"
+        style="@style/explanations"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content" />
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:layout_marginTop="4dp"
+        android:text="@string/playlist_screen_explanation" />
 
     <!-- First item happyplaylist -->
 
@@ -80,28 +80,28 @@
         <ImageView
 
             android:id="@+id/thb_h_one"
-            android:src="@drawable/chuck_berry"
             android:layout_width="80dp"
-            android:layout_height="80dp" />
+            android:layout_height="80dp"
+            android:src="@drawable/chuck_berry" />
 
         <TextView
 
             android:id="@+id/h_one_text"
-            android:text="@string/happy_item_one"
             style="@style/list_items_text"
-            android:layout_height="wrap_content" />
+            android:layout_height="wrap_content"
+            android:text="@string/happy_item_one" />
 
         <ImageView
             android:id="@+id/h_heart_one"
             style="@style/heart"
-            android:src="@drawable/heart"
-            android:onClick="like1"/>
+            android:onClick="like1"
+            android:src="@drawable/heart" />
 
         <ImageView
             android:id="@+id/h_plus_one"
             style="@style/plus"
-            android:src="@drawable/plus"
-            android:onClick="go_to_artist_one"/>
+            android:onClick="go_to_artist_one"
+            android:src="@drawable/plus" />
 
     </LinearLayout>
 
@@ -122,23 +122,23 @@
         <ImageView
 
             android:id="@+id/thb_h_two_"
-            android:src="@drawable/cream"
             android:layout_width="80dp"
             android:layout_height="80dp"
-            android:onClick="playingnow_cream"/>
+            android:onClick="playingnow_cream"
+            android:src="@drawable/cream" />
 
         <TextView
 
             android:id="@+id/h_two_text_"
-            android:text="@string/happy_item_two"
             style="@style/list_items_text"
-            android:layout_height="wrap_content" />
+            android:layout_height="wrap_content"
+            android:text="@string/happy_item_two" />
 
         <ImageView
             android:id="@+id/h_heart_two"
             style="@style/heart"
-            android:src="@drawable/heart"
-            android:onClick="like2"/>
+            android:onClick="like2"
+            android:src="@drawable/heart" />
 
         <ImageView
             android:id="@+id/h_plus_two"
@@ -164,22 +164,22 @@
         <ImageView
 
             android:id="@+id/thb_h_two"
-            android:src="@drawable/elton_john"
             android:layout_width="80dp"
-            android:layout_height="80dp" />
+            android:layout_height="80dp"
+            android:src="@drawable/elton_john" />
 
         <TextView
 
             android:id="@+id/h_two_text"
-            android:text="@string/happy_item_three"
             style="@style/list_items_text"
-            android:layout_height="wrap_content" />
+            android:layout_height="wrap_content"
+            android:text="@string/happy_item_three" />
 
         <ImageView
             android:id="@+id/h_heart_three"
             style="@style/heart"
-            android:src="@drawable/heart"
-            android:onClick="like3"/>
+            android:onClick="like3"
+            android:src="@drawable/heart" />
 
         <ImageView
             android:id="@+id/h_plus_three"
@@ -205,22 +205,22 @@
         <ImageView
 
             android:id="@+id/thb_h_four"
-            android:src="@drawable/rolling_stones"
             android:layout_width="80dp"
-            android:layout_height="80dp" />
+            android:layout_height="80dp"
+            android:src="@drawable/rolling_stones" />
 
         <TextView
 
             android:id="@+id/h_four_text"
-            android:text="@string/happy_item_four"
             style="@style/list_items_text"
-            android:layout_height="wrap_content" />
+            android:layout_height="wrap_content"
+            android:text="@string/happy_item_four" />
 
         <ImageView
             android:id="@+id/h_heart_four"
             style="@style/heart"
-            android:src="@drawable/heart"
-            android:onClick="like4"/>
+            android:onClick="like4"
+            android:src="@drawable/heart" />
 
         <ImageView
             android:id="@+id/h_plus_four"

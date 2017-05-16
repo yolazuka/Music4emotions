@@ -3,9 +3,9 @@
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:background="@drawable/background"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/background"
     android:orientation="vertical"
     tools:context="com.example.usuario.music4emotions.Happy">
 
@@ -24,12 +24,14 @@
 
         <TextView
             android:id="@+id/store_item_one"
-            android:paddingTop="0dp"
-            android:layout_width="match_parent"
-            android:textSize="11sp"
-            android:text="@string/store_screen_explanation"
             style="@style/list_items_text"
-            android:layout_height="wrap_content" />
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="5dp"
+            android:paddingTop="0dp"
+            android:text="@string/store_screen_explanation"
+            android:textSize="11sp" />
 
     </LinearLayout>
 
@@ -42,19 +44,19 @@
 
     <LinearLayout
         style="@style/list_items"
-        android:background="@color/turquoise"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content">
+        android:layout_height="wrap_content"
+        android:background="@color/turquoise">
 
         <TextView
             android:id="@+id/store_item_two"
             style="@style/list_items_text"
-            android:paddingTop="0dp"
-            android:textColor="@android:color/white"
-            android:textStyle="bold"
+            android:layout_height="wrap_content"
             android:layout_marginRight="65dp"
+            android:paddingTop="0dp"
             android:text="@string/happy_item_two"
-            android:layout_height="wrap_content" />
+            android:textColor="@android:color/white"
+            android:textStyle="bold" />
 
         <ImageView
             android:id="@+id/basket_two"
@@ -84,15 +86,15 @@
         <TextView
             android:id="@+id/store_item_three"
             style="@style/list_items_text"
+            android:layout_height="wrap_content"
             android:layout_marginRight="65dp"
             android:paddingTop="0dp"
-            android:text="@string/happy_item_three"
-            android:layout_height="wrap_content" />
+            android:text="@string/happy_item_three" />
 
         <ImageView
             android:id="@+id/basket_three"
-            android:layout_marginRight="15dp"
             style="@style/heart"
+            android:layout_marginRight="15dp"
             android:src="@drawable/basket" />
 
         <ImageView
@@ -114,55 +116,34 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
 
-        <TextView
-            android:id="@+id/store_item_four"
-            android:layout_marginRight="65dp"
-            android:paddingTop="0dp"
-            android:text="@string/happy_item_four"
-            style="@style/list_items_text"
-            android:layout_height="wrap_content" />
-
-        <ImageView
-            android:id="@+id/h_heart_four"
-            android:layout_marginRight="15dp"
-            style="@style/heart"
-            android:src="@drawable/basket" />
-
-        <ImageView
-            android:id="@+id/h_plus_four"
-            style="@style/plus"
-            android:src="@drawable/cross" />
 
     </LinearLayout>
 
-    <View
-        android:layout_width="match_parent"
-        android:layout_height="1dp"
-        android:background="@android:color/darker_gray"/>
+
 
     <!-- Resume of payment -->
 
     <TextView
-        android:text="@string/happy_item_two_playingnow"
-        android:textColor="@android:color/white"
-        android:layout_marginLeft="30dp"
-        android:layout_marginTop="8dp"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content" />
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="5dp"
+        android:text="@string/happy_item_two_playingnow"
+        android:textColor="@android:color/white" />
 
     <LinearLayout
         android:id="@+id/payment_layout"
-        android:layout_marginLeft="30dp"
-        android:layout_marginBottom="10dp"
-        android:layout_marginTop="10dp"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content">
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="19dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="10dp">
 
         <ImageView
-            android:src="@drawable/cream"
-            android:background="@drawable/list_item_frame"
             android:layout_width="100dp"
-            android:layout_height="100dp" />
+            android:layout_height="100dp"
+            android:background="@drawable/list_item_frame"
+            android:src="@drawable/cream" />
 
         <TextView
             android:id="@+id/resume_payment"
@@ -176,17 +157,17 @@
             android:id="@+id/payment_button"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_marginLeft="55dp"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/frame_payment"
+            android:onClick="GoToPayment"
+            android:paddingBottom="8dp"
             android:paddingLeft="8dp"
             android:paddingRight="8dp"
             android:paddingTop="8dp"
-            android:paddingBottom="8dp"
-            android:background="@drawable/frame_payment"
-            android:textSize="18dp"
-            android:layout_marginLeft="55dp"
-            android:layout_marginTop="30dp"
             android:text="@string/Buy_it_now"
             android:textColor="@android:color/white"
-            android:onClick="GoToPayment"/>
+            android:textSize="18dp" />
 
     </LinearLayout>
 
@@ -201,8 +182,8 @@
         android:id="@+id/menu_bar"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:orientation="horizontal"
-        android:background="#b3212121">
+        android:background="#b3212121"
+        android:orientation="horizontal">
 
         <TextView
             android:id="@+id/menu_main"

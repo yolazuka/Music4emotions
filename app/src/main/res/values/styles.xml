@@ -13,14 +13,14 @@
         <item name="android:textSize">18sp</item>
         <item name="android:textStyle">bold</item>
         <item name="android:layout_centerHorizontal">true</item>
-        <item name="android:layout_marginBottom">25dp</item>
+        <item name="android:layout_marginBottom">8dp</item>
         <item name="android:layout_gravity">center</item>
-        <item name="android:layout_marginTop">18dp</item>
+        <item name="android:layout_marginTop">10dp</item>
 
     </style>
 
     <style name="Image_icon" parent="Theme.AppCompat.Light.DarkActionBar">
-        <item name="android:layout_marginTop">20dp</item>
+        <item name="android:layout_marginTop">17dp</item>
         <item name="android:layout_marginLeft">8dp</item>
         <item name="android:background">@drawable/frame</item>
         <item name="android:layout_width">110dp</item>
@@ -30,7 +30,7 @@
 
 
     <style name="explanations" parent="Theme.AppCompat.Light.DarkActionBar">
-        <item name="android:layout_marginTop">25dp</item>
+        <item name="android:layout_marginTop">20dp</item>
         <item name="android:layout_marginLeft">8dp</item>
         <item name="android:layout_marginRight">8dp</item>
         <item name="android:paddingLeft">5dp</item>
@@ -97,7 +97,7 @@
 
         <item name="android:layout_marginTop">10dp</item>
         <item name="android:textColor">#FFFFFF</item>
-        <item name="android:textSize">15sp</item>
+        <item name="android:textSize">14sp</item>
         <item name="android:paddingBottom">10dp</item>
 
     </style>

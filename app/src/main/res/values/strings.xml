@@ -16,15 +16,15 @@
 
     <string name="Header">How do you feel today?...</string>
 
-    <string name="main_screen_explanation">This is the main screen, with 6 different options to choose. They are random playlists, according to your mood. The source could be any kind of platform as Spotify, lastfm, or many others.\nSo each category is linked to a new activity that will gather a random playlist related to your mood.</string>
+    <string name="main_screen_explanation">This is the main screen, with 6 different options to choose. They are random playlists, according to your mood. The source could be any kind of external application as Spotify, lastfm, or many others. Each category is linked to a new activity launched through explicit intents and eventListeners. (Onclicklistener class). On the below menu The "Search" TextView eventlistener would open a searching field fragment through a similar coding structure. Music Store TextView will show up the Music Store activity thought the same classes and events. </string>
 
-    <string name="playlist_screen_explanation">This is the playlist screen, with a list of random artists and songs that will be played automatically by the order of the list. The user can click on the plus sign, and the app will go to the artist profile. If the user clicks on the album cover, or the phone gets locked, the playingnow screen will show up. The heart is to mark it as favourite song.  </string>
+    <string name="playlist_screen_explanation">This main activity got a list of random artists and songs played automatically by Media Player. By clicking the plus sign, an explicit intent will launch the app to the artist profile activity. By clicking the artist cover, another intent will show up the playingnow activity. The "Search" TextView eventlistener would open fragment through a similar coding structure. To select the song as favourite the method setImageResource has been used. </string>
 
-    <string name="playing_now_screen_explanation">This screen shows a big picture of the artist, and details of the song, including menus to navigate to the rest of the screens.  </string>
+    <string name="playing_now_screen_explanation">Media player controls will play automatically the current artist music. The button play/stop is coded calling also Media Player for these actions. Similar coding for the buttons forward/backard. There are also menus (intents with eventlisteners) to navigate to the rest of the screens (Activities). </string>
 
-    <string name="artist_screen_explanation">This is the Artist profile screen, with all the artist information. </string>
+    <string name="artist_screen_explanation">This is the Artist profile screen, with all the artist information. This screen does not contains further linked activities. </string>
 
-    <string name="store_screen_explanation">This is the Music Store Screen, where you can buy songs. You can search for the artist, or choosing one from the playlists.Click on the artist from the list, and the layout for the payment appears on the botton. There is also a menu to navigate to the rest of the screens. </string>
+    <string name="store_screen_explanation">In this music store, purchase of songs can be made by clicking the "Buy it now" Button which send the activity to Android Pay API for the payment process, through and explicit intent and an event listener ( Onclicklistener ).It also uses an Onclicklistener class for the payments layout, in order to pop it up on the same screen at the bottom. There is also a menu to navigate through explicit intents to the rest of the screens( Activities). </string>
 
     <string name="happy_item_one_more">Want to know more about this artist? (+) </string>
 
@@ -104,16 +104,14 @@
 
     <string name="Buy_it_now">Buy it now</string>
 
-    <string name="main">main</string>
+    <string name="main">MAIN</string>
 
-    <string name="artist_profile">artist profile</string>
+    <string name="artist_profile">ARTIST PROFILE</string>
 
-    <string name="playlist">playlist</string>
+    <string name="playlist">PLAYLIST</string>
 
-    <string name="music_store">music store</string>
+    <string name="music_store">MUSIC STORE</string>
 
-    <string name="search">search</string>
-
-
+    <string name="search">SEARCH</string>
 
 </resources>
