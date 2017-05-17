@@ -22,7 +22,7 @@
 
     <string name="playing_now_screen_explanation">Media player controls will play automatically the current artist music. The button play/stop is coded calling also Media Player for these actions. Similar coding for the buttons forward/backard. There are also menus (intents with eventlisteners) to navigate to the rest of the screens (Activities). </string>
 
-    <string name="artist_screen_explanation">This is the Artist profile screen, with all the artist information. This screen does not contains further linked activities. </string>
+    <string name="artist_screen_explanation">This is the Artist profile screen, with all the artist information. The TextView "Main" is linked with the MainActivity through explicit intent and the class Onclicklistener. The same code has been structured for the TextView "Music Store" .The "Search" TextView eventlistener would open fragment showing up a searching field. </string>
 
     <string name="store_screen_explanation">In this music store, purchase of songs can be made by clicking the "Buy it now" Button which send the activity to Android Pay API for the payment process, through and explicit intent and an event listener ( Onclicklistener ).It also uses an Onclicklistener class for the payments layout, in order to pop it up on the same screen at the bottom. There is also a menu to navigate through explicit intents to the rest of the screens( Activities). </string>
 

@@ -1,45 +1,98 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ScrollView
+<LinearLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:background="@drawable/background"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:orientation="vertical"
     tools:context="com.example.usuario.music4emotions.Happy">
 
+    <!-- MENU -->
+
     <LinearLayout
+        android:id="@+id/menu_bar"
         android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/dark_transparent"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/menu_main_artist_profile"
+            style="@style/menu"
+            android:layout_width="0dp"
+            android:layout_height="30dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="@string/main" />
+
+        <TextView
+            android:id="@+id/music_store"
+            style="@style/menu"
+            android:layout_width="0dp"
+            android:layout_height="30dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="@string/music_store" />
+
+        <TextView
+            android:id="@+id/search"
+            style="@style/menu"
+            android:layout_width="0dp"
+            android:layout_height="30dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:onClick="GoToSearch"
+            android:text="@string/search" />
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@android:color/darker_gray" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical">
 
-        <TextView
-            style="@style/explanations"
-            android:id="@+id/explanation_main_screen"
-            android:text="@string/artist_screen_explanation"
-            android:layout_marginTop="8dp"
-            android:layout_marginBottom="10dp"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content" />
+            <TextView
+                android:id="@+id/explanation_main_screen"
+                style="@style/explanations"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="8dp"
+                android:text="@string/artist_screen_explanation" />
 
-        <ImageView
-            android:id="@+id/happy_image_artist_one"
-            android:src="@drawable/cream_profile"
-            android:layout_width="match_parent"
-            android:layout_height="200dp" />
+            <ImageView
+                android:id="@+id/happy_image_artist_one"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:src="@drawable/cream_profile" />
 
         <View
             android:layout_width="match_parent"
             android:layout_height="1dp"
             android:background="@android:color/darker_gray"/>
 
-        <TextView
-            android:id="@+id/h_one_text"
-            android:text="@string/artist_info"
-            style="@style/artist_profile_info"
-            android:layout_height="match_parent"
-            android:layout_width="match_parent"/>
+            <TextView
+                android:id="@+id/h_one_text"
+                style="@style/artist_profile_info"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="33dp"
+                android:text="@string/artist_info" />
 
     </LinearLayout>
 
-</ScrollView>
+    </ScrollView>
+
+</LinearLayout>
